@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+ }
+ body{
+    background-image: url(image/Kris_Peterson_Back_to_The_Future.jpg);
+ }
+    .head{
+        background-color: black;
+        opacity: 0.4;
+        padding: 10px;
+        font-weight: bold;
+       
+    }
+    .first{
+        display: flex;
+        align-items: center;
+    gap: 5%;
+font-size: 20px;
+z-index: 1;
+
+    }
+    .Log{
+        width: 50%;
+        border-radius: 5px;
+        background-color: #BFC0BF;
+        padding: 8px;
+    }
+    .joy{
+        text-align: center;
+        align-items: center;
+        margin-top: 15%;
+        color: white;
+        font-size: x-large;
+        font-weight: bolder;
+    }
+    .but{
+        width: 200px;
+        height: 70px;
+        font-weight: bolder;
+        border-radius: 5px;
+    }
+
+.cup{
+    margin-top: 10%;
+    display: flex;
+    padding: 2%;
+    align-items: center;
+    height: 1%;
+    gap: 3%;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.877);
+}
